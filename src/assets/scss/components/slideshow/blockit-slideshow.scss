@@ -1,0 +1,81 @@
+// slideshow variable
+$slideshow-default-color:                          $base-default-color !default;
+$slideshow-muted-color:                            $base-muted-color !default;
+$slideshow-primary-color:                          $base-primary-color !default;
+$slideshow-secondary-color:                        $base-secondary-color !default;
+$slideshow-border-color:                           $base-border-color !default;
+$slideshow-border-color-2:                         $base-border-color-2 !default;
+$slideshow-border-width:                           $base-border-width !default;
+$slideshow-border-width-2:                         $base-border-width-2 !default;
+$slideshow-border-radius:                          $base-border-radius !default;
+$slideshow-border-radius-2:                        $base-border-radius-2 !default;
+
+
+// slideshow component
+//@import "slideshow-1.scss";
+
+.in-slideshow {
+    background: linear-gradient(0deg, rgba(245,245,249,1) 0%, rgba(245,245,249,1) 80%, rgba(255,255,255,1) 100%);    
+    .uk-slideshow-items {
+        margin-bottom: -40px;
+        p {
+            margin-top: 25px;
+        }
+    }
+    .uk-overlay {
+        margin-top: 31px;
+        z-index: 1;
+        position: relative;
+    }
+    .uk-position-center {
+        margin-top: -1px;
+        left: 61%;
+    }
+    .in-slideshow-button {
+        margin-top: 30px;
+        .uk-button {
+            padding: 3px 30px;
+        }
+    }
+    .in-slideshow-feature {
+        color:$base-heading-color;
+        position: relative;
+        top: -65px;
+        .in-icon-wrap {
+            background-color: #6b617c;
+            color: $base-default-color;
+        }
+    } 
+}
+@media (min-width: 640px) and (max-width: 960px) {
+    .in-slideshow {
+        .uk-overlay {
+            margin-top: 16%;
+            text-align: center;
+        }
+        .uk-position-center {
+            left: 50%;
+            opacity: 0.75;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 639px) {
+    .in-slideshow {
+        .uk-overlay {
+            margin-top: 8px;
+        }
+        .uk-position-center {
+            left: 48%;
+            opacity: 0.75;
+            img {
+                height: 342px;
+            }
+        }
+        .in-highlight {
+            display: inline-block;
+        }
+    }
+}

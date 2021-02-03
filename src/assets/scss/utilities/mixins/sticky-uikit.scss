@@ -1,0 +1,30 @@
+@import "../../base/base-variables.scss";
+
+// uikit sticky mixins
+// ========================================================================
+@mixin hook-sticky-misc(){
+    .uk-sticky {    
+        &.uk-active {
+            background: $base-default-color;
+            box-shadow: 0 2px 15px 0 rgba(0,0,0,0.13);
+            border-bottom: 1px solid #e3e3e3;
+            .uk-navbar-nav>li>a,
+            .uk-navbar-item,
+            .uk-navbar-toggle {
+                min-height: 75px;
+            }
+            .uk-navbar-dropdown {
+                padding-top: 10px;
+            }
+            .uk-logo img{
+                display: none;
+            }
+            a.uk-logo{
+                width: 130px;
+                height: 36px;
+                background: url(../../img/in-logo-1.svg);
+                margin-top: -2px;
+            }
+        }
+    }
+}

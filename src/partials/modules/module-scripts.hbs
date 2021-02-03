@@ -1,0 +1,9 @@
+<!-- Javascript -->
+<script src="{{root}}js/vendors/uikit.min.js"></script>
+<script src="{{root}}js/vendors/indonez.min.js"></script>
+{{#ifpage 'index'}}
+<script src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
+{{/ifpage}}
+{{#ifpage 'index' 'homepage2' 'homepage3' 'homepage4' 'about' 'customers'}}
+<script src="{{root}}js/config-theme.js"></script>
+{{/ifpage}}

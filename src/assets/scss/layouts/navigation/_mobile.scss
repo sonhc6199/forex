@@ -1,0 +1,10 @@
+.in-mobile-nav {
+    .uk-button {
+        font-size: 17px;
+        padding: 2px 16px;
+        color: $navigation-secondary-color;
+        background-color: transparent;
+        box-shadow: inset 0px 0px 0px 1px #e3e3e3;
+        border-radius: $navigation-border-radius;
+    }
+}

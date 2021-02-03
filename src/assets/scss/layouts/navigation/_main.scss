@@ -1,0 +1,39 @@
+.uk-navbar-nav {
+    a {
+        i {
+            font-size: 8.5px;
+            margin: 6px 0 0 8px;
+            transition: all ease 200ms;
+        }
+        &.uk-open i {
+            transition: all ease 200ms;
+            transform: rotate(-180deg);
+        }
+    }
+}
+.uk-navbar-dropdown-nav {
+    a {
+        i {
+            font-size: 13px;
+        }
+    }
+}
+.in-optional-nav div {
+    border: 1px solid $base-primary-color;
+    border-radius: $base-border-radius;
+    margin-left: 11px;
+    padding: 5px 4px 8px 4px;
+    .uk-button {
+        color: $base-primary-color;
+        font-size: $base-font-small;
+        font-weight: bold;
+        line-height: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:first-child {
+            border-right: 1px solid $base-primary-color;
+        }
+    }
+}

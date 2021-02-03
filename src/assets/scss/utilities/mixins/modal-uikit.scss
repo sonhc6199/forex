@@ -1,0 +1,16 @@
+@import "../../base/base-variables.scss";
+
+// uikit modal mixins
+// ========================================================================
+@mixin hook-modal-dialog(){
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+@mixin hook-modal-close-full(){
+    padding: 1px 17px;
+    background-color: $base-default-color;
+    border: $base-border-width solid #e3e3e3;
+    border-radius: $base-border-radius;
+    top: 18px;
+    right: 18px;
+}

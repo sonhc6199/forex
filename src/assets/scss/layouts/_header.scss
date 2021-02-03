@@ -1,0 +1,11 @@
+header {
+    border-bottom: 1px solid #e3e3e3;
+    .uk-navbar-dropdown {
+        border-bottom-left-radius: $base-border-radius;
+        border-bottom-right-radius: $base-border-radius;
+        li {
+            font-size: 14.6px;
+            text-transform: initial;
+        }
+    }
+}

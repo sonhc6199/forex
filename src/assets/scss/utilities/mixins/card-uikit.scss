@@ -1,0 +1,5 @@
+// uikit card mixins
+// ========================================================================
+@mixin hook-card-default(){ 
+    border: $base-border-width solid $base-border-color;
+}
