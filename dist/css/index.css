@@ -1,0 +1,146 @@
+.right-bar{
+    list-style: none;
+    float: right;
+    padding: 5px;
+}
+.right-bar>li{
+    display: inline-block;
+}
+.right-bar a{
+    color: #818181;
+    text-decoration: none;
+}
+.right-bar .login-btn, .right-bar .signup-btn{
+    border: 1px solid #fd6a4f;
+    border-radius: 6px;
+    padding: 5px 10px;
+    display: block;
+    margin-left: 20px;
+    transition: all 200ms ease;
+}
+.right-bar .login-btn:hover{
+    background: #fd6a4f;
+    color: #fff;
+}
+.right-bar .signup-btn{
+    margin-left: 0;
+    background: #fd6a4f;
+    color: #fff;
+    margin-left: 5px;
+}
+.right-bar .signup-btn:hover{
+    background: #fff;
+    color: #818181;
+}
+.right-bar .contact-btn{
+    transition: all 200ms ease;
+}
+.right-bar .contact-btn:hover{
+    color: #000;
+}
+.right-bar .demo-btn{
+    border: 1px solid #818181;
+    border-radius: 6px;
+    padding: 5px 10px;
+    display: block;
+    transition: all 200ms ease;
+    margin-left: 5px;
+}
+.right-bar .demo-btn:hover{
+    background: #212529;
+    color: #fff;
+}
+.top-bar{
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
+    color: #818181;
+}
+.top-bar .slogan {
+    padding: 13px 20px;
+}
+.login-btn i{
+    font-size: 14px;
+}
+.language>a{
+    padding-right: 0;
+    padding-left: 20px;
+}
+.language .dropdown-menu{
+    min-width: 7rem;
+}
+.trading span{
+    font-weight: 500;
+}
+.trading a{
+    margin-left: 10px;
+}
+.main-menu .uk-navbar-dropdown{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-menu .uk-navbar-dropdown a{
+    transition: all 300ms ease;
+}
+.main-menu .uk-navbar-dropdown a:hover{
+    margin-left: 10px;
+}
+.trading a:hover{
+    margin-left: 20px !important;
+}
+.in-button-app{
+    width: 140px;
+    padding: 15px 10px;
+    line-height: 8px;
+}
+.in-button-app i{
+    font-size: 20px;
+}
+.download-btn{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 120px;
+    height: 45px;
+    background: #2b2a2a;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 200ms ease;
+}
+.download-btn:hover{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+}
+.btn-group{
+    display: flex;
+    justify-content: start;
+    height: 95px;
+}
+.btn-group i{
+    margin-right: 10px;
+}
+.btn-group a:last-child{
+    margin-left: 10px;
+}
+.btn-group:last-child a:last-child i{
+    font-size: 22px;
+}
+@media (min-width: 1200px){
+    .cons-about .uk-grid>* {
+        padding-left: 25px;
+    }
+}
+@media (max-width: 756px){
+    .right-bar li:first-child, .right-bar li:nth-child(2), .right-bar li:nth-child(5){
+        display: none;
+    }
+    .right-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slogan{
+        text-align: center;
+    }
+}

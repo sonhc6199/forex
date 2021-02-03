@@ -12,7 +12,6 @@
     <!-- Site Properties -->
     <title>Homepage - Profit HTML5 Template</title>
     <!-- Critical preload -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preload" href="js/vendors/uikit.min.js" as="script">
     <link rel="preload" href="css/vendors/uikit.min.css" as="style">
     <link rel="preload" href="css/style.css" as="style">
@@ -26,10 +25,15 @@
     <!-- Favicon and apple icon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/vendors/uikit.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -42,35 +46,69 @@
     <!-- preloader end -->
     <header>
         <!-- header content begin -->
+        <div class="uk-container top-bar">
+            <div class="row">
+                <div class="col-lg-3 slogan">Member of HF Markets Group</div>
+                <div class="col-lg-9">
+                    <ul class="right-bar">
+                        <li><a href="#"><i class="far fa-comments"></i> Live Chat |</a></li>
+                        <li><a href="#" class="contact-btn">Contact Us 24/5</a></li>
+                        <li><a class="login-btn" href="/signin.html"><i class="fas fa-key"></i> Login</a></li>
+                        <li><a class="signup-btn" href="#">Open Live Account</a></li>
+                        <li><a class="demo-btn" href="#">Demo</a></li>
+                        <li class="nav-item dropdown language">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Việt Nam</a></li>
+                                <li><a class="dropdown-item" href="#">Italiano</a></li>
+                                <li><a class="dropdown-item" href="#">Français</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="uk-section uk-padding-small in-profit-ticker">
             <div class="uk-container">
                 <div class="uk-grid">
                     <div class="uk-width-1-1">
                         <div data-uk-slider="autoplay: true; autoplay-interval: 5000">
-                            <ul class="uk-grid-large uk-slider-items uk-child-width-1-3@s uk-child-width-1-6@m uk-text-center" data-uk-grid>
+                            <ul class="uk-grid-large uk-slider-items uk-child-width-1-3@s uk-child-width-1-6@m uk-text-center"
+                                data-uk-grid>
                                 <li>
-                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> XAUUSD <span class="uk-text-success">1478.81</span>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> XAUUSD <span
+                                        class="uk-text-success">1478.81</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> GBPUSD <span class="uk-text-danger">1.3191</span>
+                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> GBPUSD <span
+                                        class="uk-text-danger">1.3191</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> EURUSD <span class="uk-text-danger">1.1159</span>
+                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> EURUSD <span
+                                        class="uk-text-danger">1.1159</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDJPY <span class="uk-text-success">109.59</span>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDJPY <span
+                                        class="uk-text-success">109.59</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDCAD <span class="uk-text-success">1.3172</span>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDCAD <span
+                                        class="uk-text-success">1.3172</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDCHF <span class="uk-text-success">0.9776</span>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDCHF <span
+                                        class="uk-text-success">0.9776</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> AUDUSD <span class="uk-text-danger">0.67064</span>
+                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> AUDUSD <span
+                                        class="uk-text-danger">0.67064</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> GBPJPY <span class="uk-text-success">141.91</span>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> GBPJPY <span
+                                        class="uk-text-success">141.91</span>
                                 </li>
                             </ul>
                         </div>
@@ -80,20 +118,22 @@
         </div>
         <div class="uk-section uk-padding-remove-vertical">
             <!-- module navigation begin -->
-            <nav class="uk-navbar-container uk-navbar-transparent" data-uk-sticky="show-on-up: true; top: 80; animation: uk-animation-fade;">
+            <nav class="uk-navbar-container uk-navbar-transparent main-menu"
+                data-uk-sticky="show-on-up: true; top: 80; animation: uk-animation-fade;">
                 <div class="uk-container" data-uk-navbar>
                     <div class="uk-navbar-left uk-width-auto">
                         <div class="uk-navbar-item">
                             <!-- module logo begin -->
                             <a class="uk-logo" href="index.html">
-                                <img class="in-offset-top-10" src="img/in-lazy.svg" data-src="img/in-logo-1.svg" alt="logo" width="130" height="36" data-uk-img>
+                                <img class="in-offset-top-10" src="img/in-lazy.svg" data-src="img/in-logo-1.svg"
+                                    alt="logo" width="130" height="36" data-uk-img>
                             </a>
                             <!-- module logo begin -->
                         </div>
                     </div>
                     <div class="uk-navbar-right uk-width-expand uk-flex uk-flex-right">
                         <ul class="uk-navbar-nav uk-visible@m">
-                            <li><a href="index.html">Home<i class="fas fa-chevron-down"></i></a>
+                            <!-- <li><a href="index.html">Home<i class="fas fa-chevron-down"></i></a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="homepage2.html">Homepage 2</a></li>
@@ -101,46 +141,85 @@
                                         <li><a href="homepage4.html">Homepage 4</a></li>
                                     </ul>
                                 </div>
-                            </li>
-                            <li><a href="markets.html">Markets</a></li>
-                            <li><a href="#">Company<i class="fas fa-chevron-down"></i></a>
+                            </li> -->
+                            <li><a href="#">About us<i class="fas fa-chevron-down"></i></a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="blog-list.html">Blog</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="about.html">About JSC Markets</a></li>
+                                        <li><a href="blog-list.html">Advantages of JSC Markets</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="education.html">Education</a></li>
-                            <li><a href="#">Resources<i class="fas fa-chevron-down"></i></a>
-                                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                                    <div class="uk-navbar-dropdown-grid uk-child-width-1-2" data-uk-grid>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li><a href="https://getuikit.com/docs/">Documentation<i class="fas fa-external-link-square-alt fa-sm"></i></a></li>
-                                                <li><a href="help-center.html">Help Center</a></li>
-                                                <li><a href="customers.html">Customers</a></li>
-                                                <li><a href="roadmap.html">Roadmap</a></li>
-                                                <li><a href="legal-docs.html">Legal Docs<i class="fas fa-gavel fa-sm"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li><a class="uk-disabled" href="#">Adipiscing elit sed do eiusmod incididunt ut labore dolore magna lorem ipsum sit dolor amet consectetur</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                            <li><a href="#">Trading<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown trading">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li>
+                                            <span>Accounts</span>
+                                            <a href="">Standard</a>
+                                            <a href="">ECN</a>
+                                        </li>
+                                        <li>
+                                            <span>Conditions</span>
+                                            <a href="">Leverage rules</a>
+                                            <a href="">Trading hour</a>
+                                        </li>
+                                        <li>
+                                            <span>Liquidity</span>
+                                            <a href="">Deposit</a>
+                                            <a href="">Withdraw</a>
+                                            <a href="">Transfer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Markets<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">Forex</a></li>
+                                        <li><a href="blog-list.html">Commodities</a></li>
+                                        <li><a href="blog-list.html">Indices</a></li>
+                                        <li><a href="about.html">Bonds</a></li>
+                                        <li><a href="blog-list.html">Crypto currency</a></li>
+                                        <li><a href="blog-list.html">Stocks</a></li>
+                                        <li><a href="blog-list.html">Futures</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Platform<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">MT4 Destop</a></li>
+                                        <li><a href="blog-list.html">MT4 Web Terminal</a></li>
+                                        <li><a href="blog-list.html">MT4 Iphone/Ipad</a></li>
+                                        <li><a href="about.html">MT4 Android</a></li>
+                                        <li><a href="blog-list.html">PAMM</a></li>
+                                        <li><a href="blog-list.html">MAM</a></li>
+                                        <li><a href="blog-list.html">Copy Trade</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Partnership<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">IB & affiliate program</a></li>
+                                        <li><a href="blog-list.html">Advantages when become IB of JSC Markets</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Support central<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">FAQ</a></li>
+                                    </ul>
                                 </div>
                             </li>
                         </ul>
-                        <div class="uk-navbar-item uk-visible@m in-optional-nav">
+                        <!-- <div class="uk-navbar-item uk-visible@m in-optional-nav">
                             <div>
                                 <a href="signin.html" class="uk-button uk-button-text">Login</a>
                                 <a href="#" class="uk-button uk-button-text">Sign up</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </nav>
@@ -158,17 +237,26 @@
                             <div class="uk-grid" data-uk-grid>
                                 <div class="uk-width-1-2@m">
                                     <div class="uk-overlay">
-                                        <h1>Get more <span class="in-highlight">freedom</span> in the markets.</h1>
-                                        <p class="uk-text-lead uk-visible@m">Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account</p>
+                                        <h1><span class="in-highlight">JSC MARKETS</span> - First-Class STP Broker.</h1>
+                                        <p class="uk-text-lead uk-visible@m">JSC Markets was founded by a group of
+                                            experienced business executives from the forex, finance, commercial and
+                                            compliance sectors who were determined to offer a fairer way to trade forex.
+                                        </p>
                                         <div class="in-slideshow-button">
-                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open account</a>
-                                            <a href="#" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">Discover account</a>
+                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">
+                                                Register</a>
+                                            <a href="#"
+                                                class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">
+                                                Details</a>
                                         </div>
-                                        <p class="uk-text-small"><span class="uk-text-primary">*</span>Trading in Forex/ CFDs is highly speculative and carries a high level of risk.</p>
+                                        <!-- <p class="uk-text-small"><span class="uk-text-primary">*</span>Trading in Forex/
+                                            CFDs is highly speculative and carries a high level of risk.</p> -->
                                     </div>
                                 </div>
                                 <div class="uk-position-center">
-                                    <img class="uk-animation-slide-top-small" src="img/in-lazy.svg" data-src="img/in-slideshow-image-1.png" alt="slideshow-image" width="862" height="540" data-uk-img>
+                                    <img class="uk-animation-slide-top-small"
+                                        src="https://www.indonez.com/html-demo/Profit/img/in-slideshow-image-1.png"
+                                        alt="slideshow-image" width="862" height="540">
                                 </div>
                             </div>
                         </div>
@@ -178,34 +266,97 @@
                             <div class="uk-grid" data-uk-grid>
                                 <div class="uk-width-1-2@m">
                                     <div class="uk-overlay">
-                                        <h1>Let top <span class="in-highlight">traders</span> do the job for you!</h1>
-                                        <p class="uk-text-lead uk-visible@m">Covesting allows you to automatically copy top performing traders and achieve the returns</p>
+                                        <h1>Crypto payment gateway</h1>
+                                        <p class="uk-text-lead uk-visible@m">
+                                            Lower Transaction Costs <br>
+                                            Attract New Customers all over the world <br>
+                                            Immediate Availability <br>
+                                            Eliminate Chargeback Fraud <br>
+                                            Safe and Secure
+                                        </p>
                                         <div class="in-slideshow-button">
-                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open account</a>
-                                            <a href="#" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">Discover covesting</a>
+                                            <a href="#"
+                                                class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">
+                                                TRY NOW</a>
                                         </div>
-                                        <p class="uk-text-small"><span class="uk-text-primary">*</span>Trading in Forex/ CFDs is highly speculative and carries a high level of risk.</p>
                                     </div>
                                 </div>
                                 <div class="uk-position-center">
-                                    <img class="uk-animation-slide-top-small" src="img/in-lazy.svg" data-src="img/in-slideshow-image-2.png" alt="slideshow-image" width="862" height="540" data-uk-img>
+                                    <img class="uk-animation-slide-top-small"
+                                        src="https://www.indonez.com/html-demo/Profit/img/in-slideshow-image-1.png"
+                                        alt="slideshow-image" width="862" height="540">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-container">
+                            <div class="uk-grid" data-uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <div class="uk-overlay">
+                                        <h1>Social trading</h1>
+                                        <p class="uk-text-lead uk-visible@m">
+                                            Accessibility and Reliability of Information <br>
+                                            Collective Knowledge in Trading <br>
+                                            Diversified Strategies, Easy Start <br>
+                                            Reduced Costs of Becoming a Professional Trader <br>
+                                            Learning from Examples <br>
+                                            Becoming Part of a Community
+                                        </p>
+                                        <div class="in-slideshow-button">
+                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">
+                                                Open account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-position-center">
+                                    <img class="uk-animation-slide-top-small"
+                                        src="https://www.indonez.com/html-demo/Profit/img/in-slideshow-image-1.png"
+                                        alt="slideshow-image" width="862" height="540">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-container">
+                            <div class="uk-grid" data-uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <div class="uk-overlay">
+                                        <h1>50% Bonus on deposit</h1>
+                                        <p class="uk-text-lead uk-visible@m">
+                                            Attractive bonus for Investor <br>
+                                        </p>
+                                        <div class="in-slideshow-button">
+                                            <a href="#"
+                                                class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">
+                                                MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-position-center">
+                                    <img class="uk-animation-slide-top-small"
+                                        src="https://www.indonez.com/html-demo/Profit/img/in-slideshow-image-1.png"
+                                        alt="slideshow-image" width="862" height="540">
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
-                <div class="uk-container in-slideshow-feature uk-visible@m">
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous
+                    data-uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next
+                    data-uk-slideshow-item="next"></a>
+                <div class="uk-container in-slideshow-feature uk-visible@m cons-about">
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-width-3-4@m">
                             <div class="uk-child-width-1-4" data-uk-grid>
                                 <div class="uk-flex uk-flex-middle">
                                     <div class="uk-margin-small-right">
-                                        <i class="fas fa-drafting-compass in-icon-wrap small circle uk-box-shadow-small"></i>
+                                        <i
+                                            class="fas fa-drafting-compass in-icon-wrap small circle uk-box-shadow-small"></i>
                                     </div>
                                     <div>
-                                        <p class="uk-text-bold uk-margin-remove">Enhanced Tools</p>
+                                        <p class="uk-text-bold uk-margin-remove">Fast order Execution</p>
                                     </div>
                                 </div>
                                 <div class="uk-flex uk-flex-middle">
@@ -213,7 +364,7 @@
                                         <i class="fas fa-book in-icon-wrap small circle uk-box-shadow-small"></i>
                                     </div>
                                     <div>
-                                        <p class="uk-text-bold uk-margin-remove">Trading Guides</p>
+                                        <p class="uk-text-bold uk-margin-remove">Tight spread</p>
                                     </div>
                                 </div>
                                 <div class="uk-flex uk-flex-middle">
@@ -221,7 +372,7 @@
                                         <i class="fas fa-bolt in-icon-wrap small circle uk-box-shadow-small"></i>
                                     </div>
                                     <div>
-                                        <p class="uk-text-bold uk-margin-remove">Fast execution</p>
+                                        <p class="uk-text-bold uk-margin-remove">Advanced tools</p>
                                     </div>
                                 </div>
                                 <div class="uk-flex uk-flex-middle">
@@ -229,7 +380,7 @@
                                         <i class="fas fa-percentage in-icon-wrap small circle uk-box-shadow-small"></i>
                                     </div>
                                     <div>
-                                        <p class="uk-text-bold uk-margin-remove">0% Commission</p>
+                                        <p class="uk-text-bold uk-margin-remove">Bonus deposit</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,14 +395,15 @@
             <div class="uk-container">
                 <div class="uk-grid-divider" data-uk-grid>
                     <div class="uk-width-expand@m in-margin-top-20@s">
-                        <h2>Why JSC MARKETS</h2>
+                        <h2>Why <span class="in-highlight">JSC MARKETS</span></h2>
                         <p>GREAT TRADING CONDITION AND BEST SERVICE.</p>
                     </div>
                     <div class="uk-width-2-3@m">
                         <div class="uk-child-width-1-2@s uk-child-width-1-2@m" data-uk-grid>
                             <div class="uk-flex uk-flex-middle">
                                 <div class="uk-margin-right">
-                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-1.svg" alt="profit-icon" width="72" height="72" data-uk-img>
+                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-1.svg" alt="profit-icon"
+                                        width="72" height="72" data-uk-img>
                                 </div>
                                 <div>
                                     <p class="uk-text-bold">Tight, competitive spreads</p>
@@ -259,7 +411,8 @@
                             </div>
                             <div class="uk-flex uk-flex-middle">
                                 <div class="uk-margin-right">
-                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-2.svg" alt="profit-icon" width="72" height="72" data-uk-img>
+                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-2.svg" alt="profit-icon"
+                                        width="72" height="72" data-uk-img>
                                 </div>
                                 <div>
                                     <p class="uk-text-bold">Fast and efficient executions</p>
@@ -267,7 +420,8 @@
                             </div>
                             <div class="uk-flex uk-flex-middle">
                                 <div class="uk-margin-right">
-                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-3.svg" alt="profit-icon" width="72" height="72" data-uk-img>
+                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-3.svg" alt="profit-icon"
+                                        width="72" height="72" data-uk-img>
                                 </div>
                                 <div>
                                     <p class="uk-text-bold">Quick deposits and withdrawals</p>
@@ -275,7 +429,8 @@
                             </div>
                             <div class="uk-flex uk-flex-middle">
                                 <div class="uk-margin-right">
-                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-4.svg" alt="profit-icon" width="72" height="72" data-uk-img>
+                                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-4.svg" alt="profit-icon"
+                                        width="72" height="72" data-uk-img>
                                 </div>
                                 <div>
                                     <p class="uk-text-bold">Best customer service</p>
@@ -288,12 +443,14 @@
         </div>
         <!-- section content end -->
         <!-- section content begin -->
-        <div class="uk-section uk-padding-large in-padding-large-vertical@s uk-background-contain in-profit-2" data-src="img/in-profit-decor-3.svg" data-uk-img>
+        <div class="uk-section uk-padding-large in-padding-large-vertical@s uk-background-contain in-profit-2"
+            data-src="img/in-profit-decor-3.svg" data-uk-img>
             <div class="uk-container">
                 <div class="uk-grid uk-flex uk-flex-center">
                     <div class="uk-width-1-2@m uk-text-center">
-                        <h2>Experience more than Trading.</h2>
-                        <p class="uk-text-lead">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse nihil molestiae consequatu vel illum qui dolorem.</p>
+                        <h2>COMPETIVE PRICE WITH THOUSAND OF INSTRUMENT</h2>
+                        <p class="uk-text-lead">Low trading cost, low commission, competitive spreads and low margin.
+                        </p>
                         <i class="fas fa-chevron-down uk-text-primary"></i>
                     </div>
                     <div class="uk-width-5-6@m">
@@ -339,18 +496,54 @@
                                 <!-- and so on... -->
                             </tbody>
                         </table>
+                        <div class="uk-width-1-1">
+                            <div class="uk-card uk-card-default uk-card-body in-profit-appcard">
+                                <div class="uk-child-width-1-2@m" data-uk-grid>
+                                    <div>
+                                        <div data-uk-margin>
+                                            <div class="btn-group">
+                                                <a href="#" class="download-btn">
+                                                    <i class="fas fa-desktop"></i> Desktop
+                                                </a>
+                                                <a href="#" class="download-btn">
+                                                    <i class="fas fa-download"></i> Web
+                                                </a>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="#" class="download-btn">
+                                                    <i class="fab fa-android"></i> Android
+                                                </a>
+                                                <a href="#" class="download-btn">
+                                                    <i class="fab fa-apple"></i> IOS
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <!-- <p>Trade on <span class="uk-text-bold uk-text-primary">world class
+                                                platform</span> without a doubt.</p> -->
+                                        <p>Trade on MT4 - a world-class trading platform for any device</p>
+                                    </div>
+                                    <div class="uk-visible@m">
+                                        <img src="https://www.indonez.com/html-demo/Profit/img/in-profit-mockup-1.png" width="450"
+                                            height="203" alt="profit-mockup">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- section content end -->
         <!-- section content begin -->
-        <div class="uk-section uk-section-secondary uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-profit-3" data-src="img/in-section-profit-3.png" data-uk-img>
+        <div class="uk-section uk-section-secondary uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-profit-3"
+            data-src="img/in-section-profit-3.png" data-uk-img>
             <div class="uk-container uk-margin-small-bottom">
                 <div class="uk-grid-large" data-uk-grid>
                     <div class="uk-width-1-2@m">
                         <h2>We are committed to meeting your CFD and FX trading needs</h2>
-                        <p class="uk-text-lead">Excepteur occaeca cupidata non proident fugiat nulla pariatur quasi architecto beatae, sunt in culpa quila officia deserunt mollit anim id est aute laborum.</p>
+                        <p class="uk-text-lead">Excepteur occaeca cupidata non proident fugiat nulla pariatur quasi
+                            architecto beatae, sunt in culpa quila officia deserunt mollit anim id est aute laborum.</p>
                     </div>
                     <div class="uk-width-1-1">
                         <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-small-top" data-uk-grid>
@@ -385,134 +578,31 @@
         </div>
         <!-- section content end -->
         <!-- section content begin -->
-       <div class="banner">
-        <div class="row">
-            <div class="col-md">
-                <div class="img-banner">
-                    <div class="banner-content">
-                        <p>Want to become a JSC Markets PAMM FUND MANAGER?</p>
-                        <button class ="btn btn-danger">LEARN MORE</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="img-banner">
-                    <div class="banner-content">
-                        <p>Want to become a JSC Markets MAM FUND MANAGER?</p>
-                        <button class ="btn btn-danger">LEARN MORE</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="img-banner">
-                    <div class="banner-content">
-                        <p>Join our social trading platform to follow Master Strategist to earn passive income</p>
-                        <div class="banner-button">
+        <div class="banner">
+            <div class="row">
+                <div class="col-md">
+                    <div class="img-banner">
+                        <div class="banner-content">
+                            <p>Want to become a JSC Markets PAMM FUND MANAGER?</p>
                             <button class="btn btn-danger">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-       </div>
-        <!-- test -->
-        <div class="uk-section uk-padding-remove-vertical">
-            <div class="in-slideshow uk-visible-toggle uk-slideshow" data-uk-slideshow="">
-                <ul class="uk-slideshow-items" style="min-height: 542px;">
-                    <li tabindex="-1" class="uk-active uk-transition-active" style="">
-                        <div class="uk-container">
-                            <div class="uk-grid" data-uk-grid="">
-                                <div class="uk-width-1-2@m uk-first-column">
-                                    <div class="uk-overlay">
-                                        <h1>Get more <span class="in-highlight">freedom</span> in the markets.</h1>
-                                        <p class="uk-text-lead uk-visible@m">Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account</p>
-                                        <div class="in-slideshow-button">
-                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open account</a>
-                                            <a href="#" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">Discover account</a>
-                                        </div>
-                                        <p class="uk-text-small"><span class="uk-text-primary">*</span>Trading in Forex/ CFDs is highly speculative and carries a high level of risk.</p>
-                                    </div>
-                                </div>
-                                <div class="uk-position-center">
-                                    <img class="uk-animation-slide-top-small" src="http://127.0.0.1:5501/dist/img/in-slideshow-image-1.png" data-src="img/in-slideshow-image-1.png" alt="slideshow-image" width="862" height="540" data-uk-img="">
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li tabindex="-1" class="" style="">
-                        <div class="uk-container">
-                            <div class="uk-grid uk-grid-stack" data-uk-grid="">
-                                <div class="uk-width-1-2@m uk-first-column">
-                                    <div class="uk-overlay">
-                                        <h1>Let top <span class="in-highlight">traders</span> do the job for you!</h1>
-                                        <p class="uk-text-lead uk-visible@m">Covesting allows you to automatically copy top performing traders and achieve the returns</p>
-                                        <div class="in-slideshow-button">
-                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open account</a>
-                                            <a href="#" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">Discover covesting</a>
-                                        </div>
-                                        <p class="uk-text-small"><span class="uk-text-primary">*</span>Trading in Forex/ CFDs is highly speculative and carries a high level of risk.</p>
-                                    </div>
-                                </div>
-                                <div class="uk-position-center">
-                                    <img class="uk-animation-slide-top-small" src="http://127.0.0.1:5501/dist/img/in-slideshow-image-2.png" data-src="img/in-slideshow-image-2.png" alt="slideshow-image" width="862" height="540" data-uk-img="">
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav" href="#" data-uk-slidenav-previous="" data-uk-slideshow-item="previous"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav" href="#" data-uk-slidenav-next="" data-uk-slideshow-item="next"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
-                <div class="uk-container in-slideshow-feature uk-visible@m">
-                    <div class="uk-grid uk-flex uk-flex-center">
-                        <div class="uk-width-3-4@m">
-                            <div class="uk-child-width-1-4 uk-grid" data-uk-grid="">
-                                <div class="uk-flex uk-flex-middle uk-first-column">
-                                    <div class="uk-margin-small-right">
-                                        <i class="fas fa-drafting-compass in-icon-wrap small circle uk-box-shadow-small"></i>
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-bold uk-margin-remove">Enhanced Tools</p>
-                                    </div>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div class="uk-margin-small-right">
-                                        <i class="fas fa-book in-icon-wrap small circle uk-box-shadow-small"></i>
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-bold uk-margin-remove">Trading Guides</p>
-                                    </div>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div class="uk-margin-small-right">
-                                        <i class="fas fa-bolt in-icon-wrap small circle uk-box-shadow-small"></i>
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-bold uk-margin-remove">Fast execution</p>
-                                    </div>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div class="uk-margin-small-right">
-                                        <i class="fas fa-percentage in-icon-wrap small circle uk-box-shadow-small"></i>
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-bold uk-margin-remove">0% Commission</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-md">
+                    <div class="img-banner">
+                        <div class="banner-content">
+                            <p>Want to become a JSC Markets MAM FUND MANAGER?</p>
+                            <button class="btn btn-danger">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-
-        <!-- section content end -->
-        <div class="uk-section in-offset-bottom-40 in-profit-trustpilot">
-            <div class="uk-container">
-                <div class="uk-grid" data-uk-grid>
-                    <div class="uk-width-1-1">
-                        <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5406e65db0d04a09e042d5fc" data-businessunit-id="561d886b0000ff0005844fd6" data-style-height="28px" data-style-width="100%" data-theme="light">
-                            <a href="https://uk.trustpilot.com/review/pepperstone.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>
+                <div class="col-md">
+                    <div class="img-banner">
+                        <div class="banner-content">
+                            <p>Join our social trading platform to follow Master Strategist to earn passive income</p>
+                            <div class="banner-button">
+                                <button class="btn btn-danger">LEARN MORE</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -555,9 +645,12 @@
                     </div>
                     <div class="uk-flex-first uk-flex-last@m">
                         <ul class="uk-list uk-link-text">
-                            <li><img class="uk-margin-small-bottom" src="img/in-lazy.svg" data-src="img/in-logo-2.svg" alt="logo" width="130" height="36" data-uk-img></li>
-                            <li><a href="#"><i class="fas fa-envelope uk-margin-small-right"></i>info@jscmarkets.com</a></li>
-                            <li><a href="#"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Jakarta, Indonesia</a></li>
+                            <li><img class="uk-margin-small-bottom" src="img/in-lazy.svg" data-src="img/in-logo-2.svg"
+                                    alt="logo" width="130" height="36" data-uk-img></li>
+                            <li><a href="#"><i class="fas fa-envelope uk-margin-small-right"></i>info@jscmarkets.com</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Jakarta,
+                                    Indonesia</a></li>
                         </ul>
                     </div>
                 </div>
@@ -565,7 +658,11 @@
                     <div class="uk-width-5-6@m uk-margin-bottom">
                         <div class="in-footer-warning in-margin-top-20@s">
                             <h5 class="uk-text-small uk-text-uppercase"><span>Risk Warning</span></h5>
-                            <p class="uk-text-small">Trading Leveraged Products such as Forex and Derivatives may not be suitable for all investors as they carry a high degree of risk to your capital. Please ensure that you fully understand the risks involved, taking into account your investments objectives and level of experience, before trading, and if necessary, seek independent advice </p>
+                            <p class="uk-text-small">Trading Leveraged Products such as Forex and Derivatives may not be
+                                suitable for all investors as they carry a high degree of risk to your capital. Please
+                                ensure that you fully understand the risks involved, taking into account your
+                                investments objectives and level of experience, before trading, and if necessary, seek
+                                independent advice </p>
                         </div>
                     </div>
                     <div class="uk-width-1-2@m in-copyright-text">
@@ -591,6 +688,7 @@
     <script src="js/vendors/uikit.min.js"></script>
     <script src="js/vendors/indonez.min.js"></script>
     <script src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/config-theme.js"></script>
 </body>
 
