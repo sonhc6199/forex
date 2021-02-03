@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Premium HTML5 Template by Indonez">
+    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, vanilla javascript">
+    <meta name="author" content="Indonez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e9e8f0" />
+    <!-- Site Properties -->
+    <title>JSC MARKETS</title>
+    <!-- Critical preload -->
+    <link rel="preload" href="js/vendors/uikit.min.js" as="script">
+    <link rel="preload" href="css/vendors/uikit.min.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <!-- Icon preload -->
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Font preload -->
+    <link rel="preload" href="fonts/lato-v16-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/lato-v16-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/montserrat-v14-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Favicon and apple icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/vendors/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- preloader begin -->
+    <div class="in-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- preloader end -->
+    <header>
+        <!-- header content begin -->
+        <div class="uk-container top-bar">
+            <div class="row">
+                <div class="col-lg-3 slogan">Member of JCS Markets Group</div>
+                <div class="col-lg-9">
+                    <ul class="right-bar">
+                        <li><a href="#"><i class="far fa-comments"></i> Live Chat |</a></li>
+                        <li><a href="#" class="contact-btn">Contact Us 24/5</a></li>
+                        <li><a class="login-btn" href="/signin.html"><i class="fas fa-key"></i> Login</a></li>
+                        <li><a class="signup-btn" href="#">Open Live Account</a></li>
+                        <li><a class="demo-btn" href="#">Demo</a></li>
+                        <li class="nav-item dropdown language">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Việt Nam</a></li>
+                                <li><a class="dropdown-item" href="#">Italiano</a></li>
+                                <li><a class="dropdown-item" href="#">Français</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section uk-padding-small in-profit-ticker">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-1-1">
+                        <div data-uk-slider="autoplay: true; autoplay-interval: 5000">
+                            <ul class="uk-grid-large uk-slider-items uk-child-width-1-3@s uk-child-width-1-6@m uk-text-center"
+                                data-uk-grid>
+                                <li>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> XAUUSD <span
+                                        class="uk-text-success">1478.81</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> GBPUSD <span
+                                        class="uk-text-danger">1.3191</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> EURUSD <span
+                                        class="uk-text-danger">1.1159</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDJPY <span
+                                        class="uk-text-success">109.59</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDCAD <span
+                                        class="uk-text-success">1.3172</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> USDCHF <span
+                                        class="uk-text-success">0.9776</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-down in-icon-wrap small circle down"></i> AUDUSD <span
+                                        class="uk-text-danger">0.67064</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-up in-icon-wrap small circle up"></i> GBPJPY <span
+                                        class="uk-text-success">141.91</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section uk-padding-remove-vertical">
+            <!-- module navigation begin -->
+            <nav class="uk-navbar-container uk-navbar-transparent main-menu"
+                data-uk-sticky="show-on-up: true; top: 80; animation: uk-animation-fade;">
+                <div class="uk-container" data-uk-navbar>
+                    <div class="uk-navbar-left uk-width-auto">
+                        <div class="uk-navbar-item">
+                            <!-- module logo begin -->
+                            <a class="uk-logo" href="index.html">
+                                <img class="in-offset-top-10" src="img/in-lazy.svg" data-src="img/JSC_logo.png"
+                                    alt="logo" width="130" height="36" data-uk-img>
+                            </a>
+                            <!-- module logo begin -->
+                        </div>
+                    </div>
+                    <div class="uk-navbar-right uk-width-expand uk-flex uk-flex-right">
+                        <ul class="uk-navbar-nav uk-visible@m">
+                            <!-- <li><a href="index.html">Home<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="homepage2.html">Homepage 2</a></li>
+                                        <li><a href="homepage3.html">Homepage 3</a></li>
+                                        <li><a href="homepage4.html">Homepage 4</a></li>
+                                    </ul>
+                                </div>
+                            </li> -->
+                            <li><a href="#">About us<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">About JSC Markets</a></li>
+                                        <li><a href="blog-list.html">Advantages of JSC Markets</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Trading<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown trading">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li>
+                                            <span>Accounts</span>
+                                            <a href="">Standard</a>
+                                            <a href="">ECN</a>
+                                        </li>
+                                        <li>
+                                            <span>Conditions</span>
+                                            <a href="">Leverage rules</a>
+                                            <a href="">Trading hour</a>
+                                        </li>
+                                        <li>
+                                            <span>Liquidity</span>
+                                            <a href="">Deposit</a>
+                                            <a href="">Withdraw</a>
+                                            <a href="">Transfer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Markets<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">Forex</a></li>
+                                        <li><a href="blog-list.html">Commodities</a></li>
+                                        <li><a href="blog-list.html">Indices</a></li>
+                                        <li><a href="about.html">Bonds</a></li>
+                                        <li><a href="blog-list.html">Crypto currency</a></li>
+                                        <li><a href="blog-list.html">Stocks</a></li>
+                                        <li><a href="blog-list.html">Futures</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Platform<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">MT4 Destop</a></li>
+                                        <li><a href="blog-list.html">MT4 Web Terminal</a></li>
+                                        <li><a href="blog-list.html">MT4 Iphone/Ipad</a></li>
+                                        <li><a href="about.html">MT4 Android</a></li>
+                                        <li><a href="blog-list.html">PAMM</a></li>
+                                        <li><a href="blog-list.html">MAM</a></li>
+                                        <li><a href="blog-list.html">Copy Trade</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Partnership<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">IB & affiliate program</a></li>
+                                        <li><a href="blog-list.html">Advantages when become IB of JSC Markets</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Support central<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- <div class="uk-navbar-item uk-visible@m in-optional-nav">
+                            <div>
+                                <a href="signin.html" class="uk-button uk-button-text">Login</a>
+                                <a href="#" class="uk-button uk-button-text">Sign up</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </nav>
+            <!-- module navigation end -->
+        </div>
+        <!-- header content end -->
+    </header>
+    <main>
+        <h1 class="h">Preventing Money Laundering –<br><span class="in-highlight">JSC MARKETS</span></h1>
+        <div class="content uk-container">
+            <div class="uk-grid-large" data-uk-grid>
+                <div class="uk-width-1-2@s uk-width-1-3@m">
+                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-8.svg" alt="profit-icon" width="86"
+                        height="86" data-uk-img>
+                    <h4 class="uk-heading-bullet uk-margin-top">1. Definition of money laundering</h4>
+                    <div id="test">
+                        <p>Modern society currently faces a serious challenge in preventing money
+                            laundering, e.g. making the possession, use, or disposal of money or
+                            other property obtained from criminal activities appear to be legal, and
+                            terrorism financing - providing or gathering money or rendering
+                            financial services with the knowledge that the money is intended to
+                            finance the organization, preparation for, or execution of terrorist
+                            acts or to support a criminal society (criminal organization) created or
+                            being created to perform terrorist acts.<br>
+                            Individuals and legal entities
+                            whose income is earned illegally make various attempts to legalize their
+                            income. For example, they may use other people's personal data,
+                            including data that has been acquired fraudulently. This may become a
+                            problem for people who become victims of fraud and are uninvolved in
+                            these parties' criminal activities</p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-width-1-3@m">
+                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-9.svg" alt="profit-icon" width="86"
+                        height="86" data-uk-img>
+                    <h4 class="uk-heading-bullet uk-margin-top">2. Laws against money laundering</h4>
+                    <div id="test">
+
+                        <p>
+                            To prevent money laundering, organizations performing operations with
+                            money or other property are obligated to comply with anti-money
+                            laundering laws, verify the identity of clients, and assist government
+                            agencies and financial organizations working to combat money laundering.
+                            JSC Markets does everything required to ensure compliance with laws
+                            against money laundering and financing terrorism.
+                        </p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-width-1-3@m">
+                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-4.svg" alt="profit-icon" width="86"
+                        height="86" data-uk-img>
+                    <h4 class="uk-heading-bullet uk-margin-top">3. Client identity verification procedure</h4>
+                    <div id="test">
+                        <p>As part of complying with laws on client identification, this procedure
+                            is performed during registration, various types of non-trading
+                            operations, and as part of monitoring by our specialists. In order to
+                            identify our clients, JSC Markets may ask you for personal data and take
+                            steps to confirm the accuracy of this information using a verification
+                            system developed by our specialists. It may take several work days to
+                            complete this process.</p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-width-1-3@m">
+                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-6.svg" alt="profit-icon" width="86"
+                        height="86" data-uk-img>
+                    <h4 class="uk-heading-bullet uk-margin-top">4. Compliance with the Privacy Agreement</h4>
+                    <div id="test1">
+                        <p>The personal data we receive is handled in accordance with the
+                            provisions of the Privacy Agreement. Please note that the reason for the
+                            identification procedure is to comply with laws against money laundering
+                            and financing terrorism, not because we suspect you of committing
+                            illegal acts. Accordingly, your cooperation and understanding of these
+                            steps is necessary to effectively combat money laundering and financing
+                            terrorism.</p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-width-1-3@m">
+                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-10.svg" alt="profit-icon" width="86"
+                        height="86" data-uk-img>
+                    <h4 class="uk-heading-bullet uk-margin-top">5. RESTRICITED COUNTRIES</h4>
+                    <div id="test">
+                        <p>The Company does not service US entities or residents of any kind.<br>
+                            While we welcome clients from all over the globe, governmental restrictions
+                            along with our company policies prohibit The Company from opening
+                            accounts originated from the following restricted and/or OFAC sanctioned
+                            countries, as well as high risk and non-cooperative jurisdictions:
+                            Afghanistan, Bosnia and Herzegovina, Democratic People's Republic of
+                            Korea (DPRK), Guyana, Iran, Iraq, Lao People's Democratic Republic,
+                            Myanmar, Papua New Guinea, Syria, Uganda, Vanuatu, Yemen.</p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-width-1-3@m">
+                    <img src="img/in-lazy.svg" data-src="img/in-profit-icon-5.svg" alt="profit-icon" width="86"
+                        height="86" data-uk-img>
+                    <h4 class="uk-heading-bullet uk-margin-top">6. RELEVANT DEPARTMENT</h4>
+                    <div id="test">
+
+                        <p>Customer Service Department Email: support@jscmarkets.com<br /><br />
+                            Compliance Department<br />
+                            Email: info@jscmarkets.com</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <!-- footer content begin -->
+        <div class="uk-section uk-section-primary uk-padding-large uk-padding-remove-horizontal uk-margin-medium-top">
+            <div class="uk-container">
+                <div class="uk-child-width-1-2@s uk-child-width-1-5@m uk-flex" data-uk-grid>
+                    <div>
+                        <h4 class="uk-heading-bullet">Terms of Business</h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="#">Risk Statement</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Preventing Money Laundering</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="uk-heading-bullet">What is Forex</h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="#">For Beginners</a></li>
+                            <li><a href="#">Try Demo Account</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="uk-heading-bullet">Open Account</h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="#">Terms &amp; Make Deposit</a></li>
+                            <li><a href="#">Privacy &amp; MT4 Terminal</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-visible@m">
+                        <h4 class="uk-heading-bullet">Support</h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="#">Documentation</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-flex-first uk-flex-last@m">
+                        <ul class="uk-list uk-link-text">
+                            <li><img class="uk-margin-small-bottom" src="img/in-lazy.svg" data-src="img/in-logo-2.svg"
+                                    alt="logo" width="130" height="36" data-uk-img></li>
+                            <li><a href="#"><i class="fas fa-envelope uk-margin-small-right"></i>info@jscmarkets.com</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Jakarta,
+                                    Indonesia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-grid uk-flex uk-flex-center uk-margin-large-top" data-uk-grid>
+                    <div class="uk-width-5-6@m uk-margin-bottom">
+                        <div class="in-footer-warning in-margin-top-20@s">
+                            <h5 class="uk-text-small uk-text-uppercase"><span>Risk Warning</span></h5>
+                            <p class="uk-text-small">Trading Leveraged Products such as Forex and Derivatives may not be
+                                suitable for all investors as they carry a high degree of risk to your capital. Please
+                                ensure that you fully understand the risks involved, taking into account your
+                                investments objectives and level of experience, before trading, and if necessary, seek
+                                independent advice </p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m in-copyright-text">
+                        <p>© Profit Inc 2020. All rights reserved.</p>
+                    </div>
+                    <div class="uk-width-1-2@m uk-text-right@m in-footer-socials">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer content end -->
+        <!-- module totop begin -->
+        <div class="uk-visible@m">
+            <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
+        </div>
+        <!-- module totop begin -->
+    </footer>
+    <!-- Javascript -->
+    <script src="js/vendors/uikit.min.js"></script>
+    <script src="js/vendors/indonez.min.js"></script>
+    <script src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/config-theme.js"></script>
+</body>
+
+</html>
