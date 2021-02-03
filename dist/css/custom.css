@@ -1,0 +1,58 @@
+.banner {
+    margin: 50px 50px 30px 50px;
+}
+.img-banner {
+    background: url(../../src/assets/img/banner/1.jpg);
+    height: 350px;
+    width: auto;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding-right: 50px;
+}
+.banner-content p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-button {
+    height: 300px;
+    display: flex;
+    align-items: start;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #01123c;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #01123c;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #01123c;
+}
